@@ -1,6 +1,6 @@
 ## 暂时需要用到的接口
 
-1. access_token
+1. access_token `ok`
 2. 免登
 3. 通讯录
     1. 获取角色组列表
