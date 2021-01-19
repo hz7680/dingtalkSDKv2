@@ -7,7 +7,7 @@ import (
 
 type Client struct {
 	corpId      string
-	agentId     string
+	agentId     int
 	appKey      string
 	appSecret   string
 	aesKey      string
@@ -16,7 +16,7 @@ type Client struct {
 	cryptor     *crypto.Crypto
 }
 
-func NewClient(corpId, agentId, appKey, appSecret, aesKey, key, token string) *Client {
+func NewClient(corpId string, agentId int, appKey, appSecret, aesKey, key, token string) *Client {
 	return &Client{
 		corpId:      corpId,
 		agentId:     agentId,
