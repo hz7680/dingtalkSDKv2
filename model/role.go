@@ -36,9 +36,10 @@ type GetRoleUserResponse struct {
 }
 
 type RoleListResponse struct {
-	Errcode int    `json:"errcode"`
-	Errmsg  string `json:"errmsg"`
-	Result  struct {
+	Errcode   int    `json:"errcode"`
+	Errmsg    string `json:"errmsg"`
+	RequestId string `json:"request_id"`
+	Result    struct {
 		HasMore bool `json:"has_more"`
 		List    []struct {
 			Name    string `json:"name"`
