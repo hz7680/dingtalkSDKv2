@@ -18,6 +18,7 @@ func main() {
 	//accessToken, err := dingtalkClient.GetAccessToken()
 	//fmt.Println(accessToken)
 	//fmt.Print(err)
-	err := dingtalkClient.GetRoleGroup(1814596691)
+	group, err := dingtalkClient.GetRoleGroup(1814596691)
+	fmt.Println(group)
 	fmt.Println(err)
 }
