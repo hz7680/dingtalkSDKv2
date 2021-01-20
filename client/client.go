@@ -1,8 +1,8 @@
 package client
 
 import (
-	"dingtalkSdkV2/crypto"
-	"dingtalkSdkV2/model"
+	"github.com/hz7680/dingtalkSdkV2/crypto"
+	"github.com/hz7680/dingtalkSdkV2/model"
 )
 
 type Client struct {
